@@ -1,0 +1,55 @@
+body {
+   color: $text-color;
+   font-size: 1rem;
+   line-height: 1.5;
+   background-color: $whte-color;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+a {
+   color: $primary-color;
+   text-decoration: none;
+
+   &:hover {
+      color: $title-color;
+   }
+}
+
+.section-title {
+   margin-block-end: 5rem;
+
+   span {
+      color: $primary-color;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: $title-font;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-block-end: 1.2rem;
+   }
+
+   h2 {
+      font-size: 3rem;
+      font-family: $title-font;
+      text-transform: capitalize;
+      color: $title-color;
+      margin-block-end: 0;
+   }
+
+   @media (max-width: 991px) {
+
+      h2 {
+         font-size: 2rem;
+      }
+   }
+}
