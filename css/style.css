@@ -42,6 +42,7 @@ a:hover {
   text-transform: capitalize;
   color: #1A1A1A;
   margin-block-end: 0;
+  font-weight: 700;
 }
 @media (max-width: 991px) {
   .section-title h2 {
